@@ -22,9 +22,9 @@ window 8.x, support win 10/11
 
 ---
 
-![NetSwitch screenshot](./captures/netswitch_screen.png)
+![NetSwitch screenshot](./netswitch_screen.png)
 
-![NetSwitch setting](./captures/netswitch_setting.png)
+![NetSwitch setting](./netswitch_setting.png)
 
 ---
 
