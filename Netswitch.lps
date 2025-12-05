@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="Netswitch.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="30"/>
+        <UsageCount Value="74"/>
+      </Unit>
+      <Unit>
+        <Filename Value="fmain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="App"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="376"/>
+        <CursorPos Y="328"/>
+        <UsageCount Value="74"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="setting.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="SetForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="275"/>
+        <CursorPos X="39" Y="132"/>
+        <UsageCount Value="73"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="about.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Abtform"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="2" Y="35"/>
+        <UsageCount Value="33"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\objpas\sysutils\syspchh.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="16" Y="18"/>
+        <UsageCount Value="8"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\win\sysutils.pp"/>
+        <UnitName Value="SysUtils"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="175"/>
+        <UsageCount Value="8"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\objpas\sysutils\datih.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="147"/>
+        <CursorPos X="10" Y="130"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\rtl\objpas\sysutils\sysstr.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1118"/>
+        <CursorPos X="27" Y="1147"/>
+        <UsageCount Value="8"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="26">
+      <Position>
+        <Filename Value="fmain.pas"/>
+        <Caret Line="147" Column="64" TopLine="105"/>
+      </Position>
+      <Position>
+        <Filename Value="fmain.pas"/>
+        <Caret Line="146" Column="64" TopLine="104"/>
+      </Position>
+      <Position>
+        <Filename Value="fmain.pas"/>
+        <Caret Line="145" Column="64" TopLine="103"/>
+      </Position>
+      <Position>
+        <Filename Value="fmain.pas"/>
+        <Caret Line="144" Column="64" TopLine="102"/>
+      </Position>
+      <Position>
+        <Filename Value="fmain.pas"/>
+        <Caret Line="143" Column="64" TopLine="101"/>
+      </Position>
+      <Position>
+        <Filename Value="fmain.pas"/>
+        <Caret Line="142" Column="64" TopLine="100"/>
+      </Position>
+      <Position>
+        <Filename Value="fmain.pas"/>
+        <Caret Line="141" Column="64" TopLine="99"/>
+      </Position>
+      <Position>
+        <Filename Value="fmain.pas"/>
+        <Caret Line="434" Column="34" TopLine="406"/>
+      </Position>
+      <Position>
+        <Filename Value="fmain.pas"/>
+        <Caret Line="70" Column="26" TopLine="52"/>
+      </Position>
+      <Position>
+        <Filename Value="fmain.pas"/>
+        <Caret Line="434" Column="42" TopLine="407"/>
+      </Position>
+      <Position>
+        <Filename Value="fmain.pas"/>
+        <Caret Line="70" Column="26" TopLine="50"/>
+      </Position>
+      <Position>
+        <Filename Value="fmain.pas"/>
+        <Caret Line="437" Column="4" TopLine="413"/>
+      </Position>
+      <Position>
+        <Filename Value="fmain.pas"/>
+        <Caret Line="436" Column="20" TopLine="415"/>
+      </Position>
+      <Position>
+        <Filename Value="fmain.pas"/>
+        <Caret Line="462" Column="28" TopLine="433"/>
+      </Position>
+      <Position>
+        <Filename Value="fmain.pas"/>
+        <Caret Line="440" Column="26" TopLine="419"/>
+      </Position>
+      <Position>
+        <Filename Value="fmain.pas"/>
+        <Caret Line="9" Column="57"/>
+      </Position>
+      <Position>
+        <Filename Value="fmain.pas"/>
+        <Caret Line="443" Column="46" TopLine="432"/>
+      </Position>
+      <Position>
+        <Filename Value="fmain.pas"/>
+        <Caret Line="458" Column="13" TopLine="438"/>
+      </Position>
+      <Position>
+        <Filename Value="fmain.pas"/>
+        <Caret Line="448" Column="27" TopLine="437"/>
+      </Position>
+      <Position>
+        <Filename Value="fmain.pas"/>
+        <Caret Line="438" TopLine="423"/>
+      </Position>
+      <Position>
+        <Filename Value="fmain.pas"/>
+        <Caret Line="462" Column="85" TopLine="438"/>
+      </Position>
+      <Position>
+        <Filename Value="fmain.pas"/>
+        <Caret Line="465" Column="36" TopLine="438"/>
+      </Position>
+      <Position>
+        <Filename Value="fmain.pas"/>
+        <Caret Line="464" Column="36" TopLine="437"/>
+      </Position>
+      <Position>
+        <Filename Value="fmain.pas"/>
+        <Caret Line="463" Column="36" TopLine="436"/>
+      </Position>
+      <Position>
+        <Filename Value="fmain.pas"/>
+        <Caret Line="149" Column="5" TopLine="128"/>
+      </Position>
+      <Position>
+        <Filename Value="fmain.pas"/>
+        <Caret Line="82" Column="18" TopLine="67"/>
+      </Position>
+      <Position>
+        <Filename Value="fmain.pas"/>
+        <Caret Line="174" Column="29" TopLine="163"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

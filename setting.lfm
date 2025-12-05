@@ -1,0 +1,171 @@
+object SetForm: TSetForm
+  Left = 318
+  Height = 190
+  Top = 213
+  Width = 320
+  BorderStyle = bsDialog
+  Caption = 'Adapters Setting'
+  ClientHeight = 190
+  ClientWidth = 320
+  OnCreate = FormCreate
+  LCLVersion = '3.4.0.0'
+  object GroupBox1: TGroupBox
+    Left = 8
+    Height = 60
+    Top = 123
+    Width = 135
+    Anchors = [akLeft, akBottom]
+    Caption = 'Timer for Enabled'
+    ClientHeight = 40
+    ClientWidth = 131
+    TabOrder = 1
+    object Spinentimehour: TSpinEdit
+      Left = 8
+      Height = 31
+      Top = 5
+      Width = 50
+      Alignment = taCenter
+      Font.Height = -17
+      MaxValue = 23
+      ParentFont = False
+      TabOrder = 0
+      Value = 9
+    end
+    object Spinentimemins: TSpinEdit
+      Left = 72
+      Height = 31
+      Top = 5
+      Width = 50
+      Alignment = taCenter
+      Font.Height = -17
+      MaxValue = 59
+      ParentFont = False
+      TabOrder = 1
+    end
+    object Label1: TLabel
+      Left = 62
+      Height = 24
+      Top = 5
+      Width = 6
+      Caption = ':'
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -17
+      Font.Name = 'Arial Black'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+  end
+  object GroupBox2: TGroupBox
+    Left = 178
+    Height = 60
+    Top = 123
+    Width = 135
+    Anchors = [akRight, akBottom]
+    Caption = 'Timer for Disabled'
+    ClientHeight = 40
+    ClientWidth = 131
+    TabOrder = 2
+    object Spindistimehour: TSpinEdit
+      Left = 8
+      Height = 31
+      Top = 5
+      Width = 50
+      Alignment = taCenter
+      Font.Height = -17
+      MaxValue = 23
+      ParentFont = False
+      TabOrder = 0
+      Value = 16
+    end
+    object Spindistimemins: TSpinEdit
+      Left = 72
+      Height = 31
+      Top = 5
+      Width = 50
+      Alignment = taCenter
+      Font.Height = -17
+      MaxValue = 59
+      ParentFont = False
+      TabOrder = 1
+      Value = 30
+    end
+    object Label2: TLabel
+      Left = 62
+      Height = 24
+      Top = 5
+      Width = 6
+      Caption = ':'
+      Font.Height = -17
+      Font.Name = 'Arial Black'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+  end
+  object Btnsetsave: TButton
+    Left = 236
+    Height = 23
+    Top = 99
+    Width = 77
+    Anchors = [akTop, akRight]
+    Caption = 'Save Option'
+    TabOrder = 0
+    OnClick = BtnsetsaveClick
+  end
+  object Label3: TLabel
+    Left = 10
+    Height = 15
+    Top = 7
+    Width = 129
+    Caption = 'Select Network Adapters'
+  end
+  object BtnEnable: TButton
+    Left = 236
+    Height = 23
+    Top = 25
+    Width = 77
+    Anchors = [akTop, akRight]
+    Caption = 'Enabled'
+    TabOrder = 3
+    OnClick = BtnEnableClick
+  end
+  object BtnDisable: TButton
+    Left = 236
+    Height = 23
+    Top = 60
+    Width = 77
+    Anchors = [akTop, akRight]
+    Caption = 'Disabled'
+    TabOrder = 4
+    OnClick = BtnDisableClick
+  end
+  object Label4: TLabel
+    Left = 236
+    Height = 15
+    Top = 7
+    Width = 39
+    Anchors = [akTop, akRight]
+    Caption = 'Testing'
+  end
+  object AdapList: TCheckListBox
+    Left = 8
+    Height = 70
+    Top = 25
+    Width = 218
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    ItemHeight = 0
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 5
+    OnItemClick = CheckListBoxHandler
+  end
+  object CheckBox1: TCheckBox
+    Left = 13
+    Height = 19
+    Top = 100
+    Width = 156
+    Caption = 'Repeat timer for every day'
+    TabOrder = 6
+  end
+end

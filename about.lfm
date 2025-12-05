@@ -1,0 +1,19 @@
+object Abtform: TAbtform
+  Left = 315
+  Height = 240
+  Top = 207
+  Width = 320
+  BorderStyle = bsDialog
+  Caption = 'About'
+  ClientHeight = 240
+  ClientWidth = 320
+  OnCreate = FormCreate
+  LCLVersion = '3.4.0.0'
+  object Label1: TLabel
+    Left = 8
+    Height = 30
+    Top = 8
+    Width = 250
+    Caption = 'Netswitch is a network adapter switch software.'#13#10'Can setting timer to manage adapter state.'
+  end
+end
